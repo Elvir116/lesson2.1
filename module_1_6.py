@@ -5,8 +5,8 @@ print(my_dict.get("Elvir"))
 my_dict.update({"Iljas": 2009, "Elvir": 1981})
 my_dict ["Elvir"] = 1981
 my_dict ["Iljas"] = 2009
-del my_dict["Elvir"]
-print(my_dict)
+a = my_dict.pop("Elvir")
+print(a)
 my_set = {"Elvir", 4, 17.5}
 print(my_set)
 my_set.add("a")
